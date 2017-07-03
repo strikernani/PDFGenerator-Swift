@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF469AF41F0663E60032ACD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF469AF31F0663E60032ACD1 /* AppDelegate.swift */; };
+		FF469AF61F0663E70032ACD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF469AF51F0663E70032ACD1 /* ViewController.swift */; };
+		FF469AF91F0663E80032ACD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF469AF71F0663E80032ACD1 /* Main.storyboard */; };
+		FF469AFB1F0663E80032ACD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF469AFA1F0663E80032ACD1 /* Assets.xcassets */; };
+		FF469AFE1F0663E80032ACD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF469AFC1F0663E80032ACD1 /* LaunchScreen.storyboard */; };
+		FF469B091F0664330032ACD1 /* last_item.html in Resources */ = {isa = PBXBuildFile; fileRef = FF469B061F0664330032ACD1 /* last_item.html */; };
+		FF469B0A1F0664330032ACD1 /* single_item.html in Resources */ = {isa = PBXBuildFile; fileRef = FF469B071F0664330032ACD1 /* single_item.html */; };
+		FF469B0B1F0664330032ACD1 /* invoice.html in Resources */ = {isa = PBXBuildFile; fileRef = FF469B081F0664330032ACD1 /* invoice.html */; };
+		FF469B0D1F0664470032ACD1 /* InvoiceComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF469B0C1F0664470032ACD1 /* InvoiceComposer.swift */; };
+		FF469B0F1F06645C0032ACD1 /* CustomPrintPageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF469B0E1F06645C0032ACD1 /* CustomPrintPageRenderer.swift */; };
+		FF469B121F066A8D0032ACD1 /* InvoiceDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF469B111F066A8D0032ACD1 /* InvoiceDetailController.swift */; };
+		FF469B141F066EAA0032ACD1 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF469B131F066EAA0032ACD1 /* Categories.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF469AF01F0663E60032ACD1 /* PdfGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PdfGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF469AF31F0663E60032ACD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF469AF51F0663E70032ACD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF469AF81F0663E80032ACD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF469AFA1F0663E80032ACD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF469AFD1F0663E80032ACD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF469AFF1F0663E80032ACD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF469B061F0664330032ACD1 /* last_item.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = last_item.html; sourceTree = "<group>"; };
+		FF469B071F0664330032ACD1 /* single_item.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = single_item.html; sourceTree = "<group>"; };
+		FF469B081F0664330032ACD1 /* invoice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = invoice.html; sourceTree = "<group>"; };
+		FF469B0C1F0664470032ACD1 /* InvoiceComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceComposer.swift; sourceTree = "<group>"; };
+		FF469B0E1F06645C0032ACD1 /* CustomPrintPageRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPrintPageRenderer.swift; sourceTree = "<group>"; };
+		FF469B111F066A8D0032ACD1 /* InvoiceDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceDetailController.swift; sourceTree = "<group>"; };
+		FF469B131F066EAA0032ACD1 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF469AED1F0663E60032ACD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF469AE71F0663E50032ACD1 = {
+			isa = PBXGroup;
+			children = (
+				FF469AF21F0663E60032ACD1 /* PdfGenerator */,
+				FF469AF11F0663E60032ACD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF469AF11F0663E60032ACD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF469AF01F0663E60032ACD1 /* PdfGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF469AF21F0663E60032ACD1 /* PdfGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				FF469B051F06640A0032ACD1 /* HTML Templates */,
+				FF469AF31F0663E60032ACD1 /* AppDelegate.swift */,
+				FF469AF51F0663E70032ACD1 /* ViewController.swift */,
+				FF469B131F066EAA0032ACD1 /* Categories.swift */,
+				FF469B111F066A8D0032ACD1 /* InvoiceDetailController.swift */,
+				FF469B101F0664630032ACD1 /* Invoice Generation */,
+				FF469AF71F0663E80032ACD1 /* Main.storyboard */,
+				FF469AFA1F0663E80032ACD1 /* Assets.xcassets */,
+				FF469AFC1F0663E80032ACD1 /* LaunchScreen.storyboard */,
+				FF469AFF1F0663E80032ACD1 /* Info.plist */,
+			);
+			path = PdfGenerator;
+			sourceTree = "<group>";
+		};
+		FF469B051F06640A0032ACD1 /* HTML Templates */ = {
+			isa = PBXGroup;
+			children = (
+				FF469B061F0664330032ACD1 /* last_item.html */,
+				FF469B071F0664330032ACD1 /* single_item.html */,
+				FF469B081F0664330032ACD1 /* invoice.html */,
+			);
+			name = "HTML Templates";
+			sourceTree = "<group>";
+		};
+		FF469B101F0664630032ACD1 /* Invoice Generation */ = {
+			isa = PBXGroup;
+			children = (
+				FF469B0C1F0664470032ACD1 /* InvoiceComposer.swift */,
+				FF469B0E1F06645C0032ACD1 /* CustomPrintPageRenderer.swift */,
+			);
+			name = "Invoice Generation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF469AEF1F0663E60032ACD1 /* PdfGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF469B021F0663E80032ACD1 /* Build configuration list for PBXNativeTarget "PdfGenerator" */;
+			buildPhases = (
+				FF469AEC1F0663E60032ACD1 /* Sources */,
+				FF469AED1F0663E60032ACD1 /* Frameworks */,
+				FF469AEE1F0663E60032ACD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PdfGenerator;
+			productName = PdfGenerator;
+			productReference = FF469AF01F0663E60032ACD1 /* PdfGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF469AE81F0663E50032ACD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mahender Reddy";
+				TargetAttributes = {
+					FF469AEF1F0663E60032ACD1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF469AEB1F0663E50032ACD1 /* Build configuration list for PBXProject "PdfGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF469AE71F0663E50032ACD1;
+			productRefGroup = FF469AF11F0663E60032ACD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF469AEF1F0663E60032ACD1 /* PdfGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF469AEE1F0663E60032ACD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF469B0B1F0664330032ACD1 /* invoice.html in Resources */,
+				FF469AFE1F0663E80032ACD1 /* LaunchScreen.storyboard in Resources */,
+				FF469AFB1F0663E80032ACD1 /* Assets.xcassets in Resources */,
+				FF469AF91F0663E80032ACD1 /* Main.storyboard in Resources */,
+				FF469B091F0664330032ACD1 /* last_item.html in Resources */,
+				FF469B0A1F0664330032ACD1 /* single_item.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF469AEC1F0663E60032ACD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF469B0F1F06645C0032ACD1 /* CustomPrintPageRenderer.swift in Sources */,
+				FF469B121F066A8D0032ACD1 /* InvoiceDetailController.swift in Sources */,
+				FF469AF61F0663E70032ACD1 /* ViewController.swift in Sources */,
+				FF469AF41F0663E60032ACD1 /* AppDelegate.swift in Sources */,
+				FF469B0D1F0664470032ACD1 /* InvoiceComposer.swift in Sources */,
+				FF469B141F066EAA0032ACD1 /* Categories.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF469AF71F0663E80032ACD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF469AF81F0663E80032ACD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF469AFC1F0663E80032ACD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF469AFD1F0663E80032ACD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF469B001F0663E80032ACD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF469B011F0663E80032ACD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF469B031F0663E80032ACD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PdfGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahenderdev.PdfGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF469B041F0663E80032ACD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PdfGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahenderdev.PdfGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF469AEB1F0663E50032ACD1 /* Build configuration list for PBXProject "PdfGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF469B001F0663E80032ACD1 /* Debug */,
+				FF469B011F0663E80032ACD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF469B021F0663E80032ACD1 /* Build configuration list for PBXNativeTarget "PdfGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF469B031F0663E80032ACD1 /* Debug */,
+				FF469B041F0663E80032ACD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF469AE81F0663E50032ACD1 /* Project object */;
+}
